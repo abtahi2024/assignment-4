@@ -251,7 +251,96 @@ p{
 
 }
 
-@media only screen and (min-width:500px) and (max-width:800px){
+@media only screen and (min-width:425px) and (max-width:500px) {
+
+    
+    .nav-container {
+        margin: 90px;
+    }
+    .logo-container {
+        position: relative;
+        left: 1000px;
+    }
+    .navbar-toggler {
+        padding: 6px 10px;
+        position: relative;
+        bottom: 100px;
+        right: 60%;
+        margin-top: 90%;
+    }
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .download-btn {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+    
+    .intro-details{
+        position:relative;
+        right: 100px;
+    }
+    .intro-container{
+        margin: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .right-img {
+        width: 100%;
+        padding-top: 70px;
+    }
+    .right-img img{
+        width: 90;
+        height: auto;
+        aspect-ratio: 9/16;
+        object-fit: cover;
+        margin-left:90vh;
+    }
+    .protfolio-main .h1-res{
+        text-align: center;
+        margin-right: 234px;
+    }
+    .project-container{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 10px 2px;
+        margin: 10px 12px;
+        margin-right: 234px;
+    }
+
+    .Education{
+        left: 10cm;
+    }
+
+    .skills-container{
+        position: relative;
+        left: 600px;
+    }
+    .contact-main{
+        position: relative;
+        left: 550px;
+    }
+    .contact-us {
+        width: 95%;
+        padding: 20px;
+        position: relative;
+        left: 550px;
+    }
+    hr{
+        width: 50cm;
+    }
+    .footer-container{
+        position: relative;
+        left: 550px;
+    }
+    
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:2500px){
     .nav-container {
         margin: 90px;
     }
